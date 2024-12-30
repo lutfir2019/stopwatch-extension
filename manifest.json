@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Timer Extension",
+  "version": "1.0",
+  "description": "Ekstensi Chrome untuk menampilkan timer sederhana.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "images/icon_timer.png"
+  },
+  "icons": {
+    "128": "images/icon_timer.png"
+  },
+  "permissions": ["storage", "notifications"]
+}

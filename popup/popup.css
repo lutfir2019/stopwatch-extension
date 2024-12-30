@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+    width: 300px;
+  }
+  
+  .timer-container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin: 20px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #b01a1a;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #8b1515;
+  }
+  
