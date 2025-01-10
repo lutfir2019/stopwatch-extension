@@ -13,5 +13,18 @@
   "icons": {
     "128": "images/icon_timer.png"
   },
-  "permissions": ["storage", "notifications"]
+  "permissions": [
+    "storage",
+    "notifications",
+    "alarms",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": ["https://assets.mixkit.co/*"],
+  "web_accessible_resources": [
+    {
+      "resources": ["audio/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
